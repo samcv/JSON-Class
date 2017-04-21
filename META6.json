@@ -1,32 +1,36 @@
 {
-   "provides" : {
-      "JSON::Class" : "lib/JSON/Class.pm"
-   },
-   "version" : "0.0.8",
-   "test-depends" : [
-      "JSON::Fast",
-      "Test"
-   ],
-   "support" : {
-      "source" : "git://github.com/jonathanstowe/JSON-Class.git"
-   },
-   "auth" : "github:jonathanstowe",
-   "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
-   "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
-   "build-depends" : [],
-   "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-   ],
-   "depends" : [
-      "JSON::Marshal",
-      "JSON::Unmarshal"
-   ],
-   "perl" : "6.c",
-   "tags" : [
-      "object",
-      "serialisation",
-      "JSON"
-   ],
-   "name" : "JSON::Class",
-   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  "name": "JSON::Class",
+  "support": {
+    "source": "https://github.com/samcv/JSON-Class",
+    "bugtracker": "https://github.com/samcv/JSON-Class/issues"
+  },
+  "source-url": "git://github.com/samcv/JSON-Class.git",
+  "perl": "6.c",
+  "build-depends": [
+    
+  ],
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth": "github:samcv",
+  "depends": [
+    "JSON::Marshal",
+    "JSON::Unmarshal"
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+    "JSON::Class": "lib/JSON/Class.pm"
+  },
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "version": "0.0.8",
+  "description": "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
 }
